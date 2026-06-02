@@ -1,0 +1,7 @@
+step,n,share_of_total
+Total rural Rajasthan NFHS4 clusters,1190,1.0
+Has matched 2011 village/town ID,1190,1.0
+Has GP from existing cluster-GP crosswalk,1080,0.907563025210084
+Has GP from village-to-GP file,1146,0.9630252100840336
+Has GP from either source,1146,0.9630252100840336
+Has GP matched to 2005/2010 reservation history,417,0.35042016806722687
