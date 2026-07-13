@@ -1,0 +1,24 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{P10: Son Preference Index, Men vs Women 15-49}
+\begin{tabular}{l*{4}{c}}
+\toprule
+            &\multicolumn{1}{c}{(1)}   &\multicolumn{1}{c}{(2)}   &\multicolumn{1}{c}{(3)}   &\multicolumn{1}{c}{(4)}   \\
+            & No controls   &NFHS FE+controls   &SHRUG controls   &Full (Headline)   \\
+            &        b/se   &        b/se   &        b/se   &        b/se   \\
+\midrule
+Once (men)  &     -0.5072   &     -0.5018   &     -0.4722   &     -0.4660   \\
+            &    (0.3423)   &    (0.3395)   &    (0.3482)   &    (0.3459)   \\
+Twice (men) &     -0.1751   &     -0.1266   &     -0.1652   &     -0.1119   \\
+            &    (0.3697)   &    (0.3743)   &    (0.3757)   &    (0.3815)   \\
+Once x Female (DiG)&      0.4824   &      0.4784   &      0.4547   &      0.4517   \\
+            &    (0.3635)   &    (0.3613)   &    (0.3692)   &    (0.3661)   \\
+Twice x Female (DiG)&      0.2418   &      0.2018   &      0.2324   &      0.1987   \\
+            &    (0.4011)   &    (0.4063)   &    (0.4061)   &    (0.4120)   \\
+\midrule
+N           &        3233   &        3065   &        3233   &        3065   \\
+R2          &       0.008   &       0.022   &       0.011   &       0.028   \\
+\bottomrule
+\multicolumn{5}{l}{\footnotesize Cluster-robust SEs. * p<0.10 ** p<0.05 *** p<0.01}\\
+\end{tabular}
+\end{table}

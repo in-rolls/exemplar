@@ -1,0 +1,24 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{P2: School Enrollment, Boys vs Girls 11-15}
+\begin{tabular}{l*{4}{c}}
+\toprule
+            &\multicolumn{1}{c}{(1)}   &\multicolumn{1}{c}{(2)}   &\multicolumn{1}{c}{(3)}   &\multicolumn{1}{c}{(4)}   \\
+            & No controls   &NFHS FE+controls   &SHRUG controls   &Full (Headline)   \\
+            &        b/se   &        b/se   &        b/se   &        b/se   \\
+\midrule
+Once (boys) &      0.0216   &      0.0078   &      0.0316   &      0.0162   \\
+            &    (0.0590)   &    (0.0612)   &    (0.0573)   &    (0.0581)   \\
+Twice (boys)&      0.0274   &      0.0183   &      0.0300   &      0.0145   \\
+            &    (0.0618)   &    (0.0645)   &    (0.0559)   &    (0.0576)   \\
+Once x Female (DiG)&      0.0092   &      0.0058   &      0.0022   &     -0.0003   \\
+            &    (0.0690)   &    (0.0709)   &    (0.0691)   &    (0.0704)   \\
+Twice x Female (DiG)&     -0.0517   &     -0.0540   &     -0.0541   &     -0.0538   \\
+            &    (0.0928)   &    (0.0950)   &    (0.0926)   &    (0.0943)   \\
+\midrule
+N           &        1377   &        1294   &        1377   &        1294   \\
+R2          &       0.012   &       0.013   &       0.016   &       0.017   \\
+\bottomrule
+\multicolumn{5}{l}{\footnotesize Cluster-robust SEs. * p<0.10 ** p<0.05 *** p<0.01}\\
+\end{tabular}
+\end{table}

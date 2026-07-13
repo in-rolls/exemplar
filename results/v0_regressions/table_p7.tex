@@ -1,0 +1,20 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{P7: Underage Marriage Before 15, Women 20-24}
+\begin{tabular}{l*{4}{c}}
+\toprule
+            &\multicolumn{1}{c}{(1)}   &\multicolumn{1}{c}{(2)}   &\multicolumn{1}{c}{(3)}   &\multicolumn{1}{c}{(4)}   \\
+            & No controls   &NFHS FE+controls   &SHRUG controls   &Full (Headline)   \\
+            &        b/se   &        b/se   &        b/se   &        b/se   \\
+\midrule
+Reserved once&      0.0009   &     -0.0004   &      0.0062   &      0.0059   \\
+            &    (0.0449)   &    (0.0445)   &    (0.0449)   &    (0.0456)   \\
+Reserved twice&     -0.1752***&     -0.1812***&     -0.1586***&     -0.1709***\\
+            &    (0.0467)   &    (0.0464)   &    (0.0463)   &    (0.0474)   \\
+\midrule
+N           &         455   &         436   &         455   &         436   \\
+R2          &       0.019   &       0.027   &       0.025   &       0.032   \\
+\bottomrule
+\multicolumn{5}{l}{\footnotesize Cluster-robust SEs. * p<0.10 ** p<0.05 *** p<0.01}\\
+\end{tabular}
+\end{table}

@@ -1,0 +1,24 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{P3: Years of Schooling, Boys vs Girls 11-15}
+\begin{tabular}{l*{4}{c}}
+\toprule
+            &\multicolumn{1}{c}{(1)}   &\multicolumn{1}{c}{(2)}   &\multicolumn{1}{c}{(3)}   &\multicolumn{1}{c}{(4)}   \\
+            & No controls   &NFHS FE+controls   &SHRUG controls   &Full (Headline)   \\
+            &        b/se   &        b/se   &        b/se   &        b/se   \\
+\midrule
+Once (boys) &      0.0407   &      0.0701   &      0.0652   &      0.1089   \\
+            &    (0.1590)   &    (0.1670)   &    (0.1639)   &    (0.1702)   \\
+Twice (boys)&     -0.0309   &     -0.0371   &      0.0001   &     -0.0072   \\
+            &    (0.2130)   &    (0.2244)   &    (0.2077)   &    (0.2137)   \\
+Once x Female (DiG)&     -0.0424   &     -0.0701   &     -0.0585   &     -0.0934   \\
+            &    (0.1780)   &    (0.1849)   &    (0.1811)   &    (0.1880)   \\
+Twice x Female (DiG)&      0.3202   &      0.3463   &      0.3167   &      0.3448   \\
+            &    (0.2349)   &    (0.2442)   &    (0.2370)   &    (0.2452)   \\
+\midrule
+N           &        1375   &        1292   &        1375   &        1292   \\
+R2          &       0.010   &       0.011   &       0.013   &       0.014   \\
+\bottomrule
+\multicolumn{5}{l}{\footnotesize Cluster-robust SEs. * p<0.10 ** p<0.05 *** p<0.01}\\
+\end{tabular}
+\end{table}
